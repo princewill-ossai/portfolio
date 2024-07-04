@@ -9,16 +9,20 @@ body {
     height: 100vh;
 }
 #sidebar {
-    width: 20%;
-    height: fit-content;
-    background-color: rgb(250,250,250);
-    border: 1px solid rgb(226, 223, 223);
-    transition: all 0.5s ease;
+    
+    height: 100%;
+    /* background-color: rgb(250,250,250);
+    border: 1px solid rgb(226, 223, 223); */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* transition: all 0.5s ease;
+/* } */
 }
-
+/* 
 #sidebar.active {
     width: 20%;
-}
+} */
 
 @keyframes scroll-in {
     from {
@@ -270,10 +274,10 @@ a {
 
 
 
-
+/* 
 @media (max-width: 375px) {
     #sidebar {
         width: 100%;
     }
     
-}
+} */
